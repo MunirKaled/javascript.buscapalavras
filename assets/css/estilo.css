@@ -1,0 +1,151 @@
+body {     
+    background-color: #63d471;
+    background-image: linear-gradient(90deg, #63d471 0%, #233329 74%);
+    margin-top: 3%;
+}
+
+.painel {
+    background-color: #306844;
+    background-image: linear-gradient(314deg, #306844 0%, #2c4c3b 74%);
+    width: 95%;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 1%;
+    text-align: center;
+    font-size: xx-large;
+    border-radius: 10px;
+    box-shadow:5px 5px 15px black;
+    display: block;
+}
+
+.letrasOcultas {
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle;
+    width: 80px;
+    height: 60px;
+    margin: 10px;
+    border: 3px solid #262626;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow:5px 5px 15px black;
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    color: white;   
+}
+
+.letras {
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle;
+    width: 80px;
+    height: 60px;
+    margin: 10px;
+    border: 3px solid #262626;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow:5px 5px 15px black;
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    color: black;   
+}
+
+.teclas {
+    background-color: rgba(255, 255, 255, 0.4);
+    display: inline-block;
+    vertical-align: middle;
+    width: 65px;
+    height: 45px;
+    margin: 5px;
+    border: 2px solid#333333;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+}
+
+.teclasDesabilitadas {
+    background-color: rgba(255, 255, 255, 0);
+    display: inline-block;
+    vertical-align: middle;
+    width: 65px;
+    height: 45px;
+    margin: 5px;
+    border: 2px solid#333333;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+}
+
+.painelSituacao {
+    background-color: #306844;
+    background-image: linear-gradient(314deg, #306844 0%, #2c4c3b 74%);
+    width: 150px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 1%;
+    text-align: center;
+    font-size: xx-large;
+    border-radius: 100px;
+    box-shadow:5px 5px 15px black;
+    display: block;
+}
+
+.situacao{
+    display: inline-block;
+    vertical-align: middle;    
+    text-align: center;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    text-shadow:5px 5px 5px black;
+}
+
+.botao {
+    background: #195C1D;
+    background-image: -webkit-linear-gradient(top, #195C1D, #1ED042);
+    background-image: -moz-linear-gradient(top, #195C1D, #1ED042);
+    background-image: -ms-linear-gradient(top, #195C1D, #1ED042);
+    background-image: -o-linear-gradient(top, #195C1D, #1ED042);
+    background-image: -webkit-gradient(to bottom, #195C1D, #1ED042);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #0F1401;
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 40px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #33ED6A 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+
+.botaoReset {
+    text-align: center;
+ }
+
+
