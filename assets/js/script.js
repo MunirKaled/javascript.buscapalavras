@@ -12,6 +12,10 @@ let palavras = [
     'curso',
     'programação',
     'variável',
+    'cigmal',
+    'esa',
+    'dtic',
+    'vereador',
     'funções'
 ];
 let qtdPalvras = palavras.length;
@@ -22,7 +26,8 @@ console.log(quantidadeLetrasPalavrasorteada);
 let letrasPalavraSorteada = palavraSorteada.split('');
 console.log(letrasPalavraSorteada);
 
-let quantidadeTentativas = 6;
+//informar o numero de tentativas que o usuário terá
+let quantidadeTentativas = 10;
 let quantidadeLetrasAcertadas = 0;
 let ganhou = false;
 let perdeu = false;
